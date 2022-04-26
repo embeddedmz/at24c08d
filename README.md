@@ -23,7 +23,7 @@ A proper reading of characters from the adress 0 of the EEPROM memory of 11 char
 
 You can also manage the EEPROM using the kernel and access it using the file system (sysfs). Here are some resources :
 
-https://stackoverflow.com/questions/52499762/linux-instantiate-from-user-space-eeprom-new-device
-https://erlerobotics.gitbooks.io/erle-robotics-erle-brain-a-linux-brain-for-drones/content/en/tutorials/i2c.html
-https://community.nxp.com/t5/i-MX-Processors/I2C1-interface-for-EEPROM-RTC/m-p/246128 (mtd-utils package)
-https://connect.ed-diamond.com/GNU-Linux-Magazine/GLMF-208/Mise-en-aeuvre-du-protocole-Modbus-RTU-sur-WaRP7-via-Qt5 (in french but look at the source code/commands related to the EEPROM)
+- https://stackoverflow.com/questions/52499762/linux-instantiate-from-user-space-eeprom-new-device
+- https://erlerobotics.gitbooks.io/erle-robotics-erle-brain-a-linux-brain-for-drones/content/en/tutorials/i2c.html
+- https://community.nxp.com/t5/i-MX-Processors/I2C1-interface-for-EEPROM-RTC/m-p/246128 (mtd-utils package)
+- https://connect.ed-diamond.com/GNU-Linux-Magazine/GLMF-208/Mise-en-aeuvre-du-protocole-Modbus-RTU-sur-WaRP7-via-Qt5 (in french but look at the source code/commands related to the EEPROM)
