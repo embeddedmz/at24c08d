@@ -10,6 +10,7 @@ To use this program you have to be running Python. It only accepts 2 arguments i
 <br>
 <b>w startingAdress "string to be written"</b>  : This is for writing a string of characters to the EEPROM memory starting from the address 'startingAdress'. If you need to store a file into a shell variable you can use this trick : https://stackoverflow.com/questions/4749905/how-can-i-read-a-file-and-redirect-it-to-a-variable and then use the prefix '$' to pass the variable to the script.
 <br>
+<br>
 <b>r startingAdress count</b>  : This is for reading 'count' characters from the adress 'startingAdress' of the EEPROM memory.
 <br>
 A proper writing of a string starting at address 0 of the EEPROM memory will be:
@@ -20,7 +21,7 @@ A proper reading of characters from the adress 0 of the EEPROM memory of 11 char
 <br>
 <b>python3 at24c08d.py r 0 11</b>
 
-You can also manage the EEPROM using the kernel and access it using the file system (sysfs). Here some resources :
+You can also manage the EEPROM using the kernel and access it using the file system (sysfs). Here are some resources :
 
 https://stackoverflow.com/questions/52499762/linux-instantiate-from-user-space-eeprom-new-device
 https://erlerobotics.gitbooks.io/erle-robotics-erle-brain-a-linux-brain-for-drones/content/en/tutorials/i2c.html
